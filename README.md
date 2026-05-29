@@ -19,16 +19,16 @@ This project helps users manage daily tasks efficiently with a clean UI and real
 ## 📸 Screenshots
 
 ### 🖥️ Dashboard
-![Dashboard](dashboard-empty.png)
+![Dashboard](dashboard-empty.png.jpeg)
 
 ### 📋 Task List
-![Tasks](tasks-list.png)
+![Tasks](tasks-list.png.jpeg)
 
 ### ✅ Completed Task
-![Completed](task-completed.png)
+![Completed](task-completed.png.jpeg)
 
 ### 🔍 Filter Tasks
-![Filter](filter-completed.png)
+![Filter](filter-completed.png.jpeg)
 
 ---
 
