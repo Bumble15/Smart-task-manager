@@ -1,0 +1,89 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: #fff;
+  margin: 0;
+}
+
+.container {
+  max-width: 520px;
+  margin: 50px auto;
+  background: #111827;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+input {
+  flex: 1;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #3b82f6;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.filters {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.filters button {
+  background: #374151;
+  margin: 5px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  background: #1f2937;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.high { border-left: 6px solid red; }
+.medium { border-left: 6px solid orange; }
+.low { border-left: 6px solid green; }
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.actions button {
+  background: #374151;
+  margin-left: 5px;
+}
